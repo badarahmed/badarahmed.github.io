@@ -3,7 +3,7 @@ permalink: pretty
 markdown: rdiscount
 prose:
   rooturl: '_posts'
-  siteurl: 'http://badarahmed.github.io/'
+  siteurl: 'http://badarahmed.github.io'
   relativeLinks: 'http://badarahmed.github.io/links.jsonp'
   media: 'media'
   metadata:
