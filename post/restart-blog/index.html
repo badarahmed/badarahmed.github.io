@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>Restart blogging with Hugo &middot; Badar Ahmed</title>
+
+  
+  <link rel="stylesheet" href="http://replace-this-with-your-hugo-site.com/css/poole.css">
+  <link rel="stylesheet" href="http://replace-this-with-your-hugo-site.com/css/hyde.css">
+  <link rel="stylesheet" href="http://replace-this-with-your-hugo-site.com/css/poole-overrides.css">
+  <link rel="stylesheet" href="http://replace-this-with-your-hugo-site.com/css/hyde-overrides.css">
+  <link rel="stylesheet" href="http://replace-this-with-your-hugo-site.com/css/hyde-x.css">
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://replace-this-with-your-hugo-site.com/touch-icon-144-precomposed.png">
+  <link href="http://replace-this-with-your-hugo-site.com/favicon.png" rel="icon">
+
+  
+  
+  
+  
+
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  
+</head>
+<body class="theme-base-08 layout-reverse">
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      
+      <h1>Badar Ahmed</h1>
+      <p class="lead">Writings about Code<br/><br/>#architecture #distributedsystems #golang #javascript<br/><br/></p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item"><a href="http://replace-this-with-your-hugo-site.com/">Blog</a></li>
+      
+      <li class="sidebar-nav-item"><a href="http://replace-this-with-your-hugo-site.com/about/">About</a></li>
+      
+    </ul>
+
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item">
+      
+      
+      
+      
+      
+      
+      
+      
+      </li>
+    </ul>
+
+    
+
+    <p>Copyright &copy; 2015 <a href="http://replace-this-with-your-hugo-site.com/license/">License</a><br/>
+       Powered by <a href="http://gohugo.io">Hugo</a> and <a href="https://github.com/zyro/hyde-x">Hyde-X</a></p>
+  </div>
+</div>
+
+
+<div class="content container">
+  <div class="post">
+    <h1>Restart blogging with Hugo</h1>
+    <span class="post-date">Aug 30, 2015 &middot; 2 minute read
+    
+    <br/>
+    
+    </span>
+    
+
+<p>Starting new blog again! I&rsquo;ve attempted to write a bit before with a <a href="http://jekyllrb.com/">Jekyll</a> &amp; <a href="https://ghost.org/">Ghost</a> setup.</p>
+
+<p>Starting over again with <strong><a href="http://gohugo.io">Hugo</a></strong>; a Go based static blogging platform. Love the speed &amp; simplicity compared to Jekyll.
+Nice work by <a href="https://twitter.com/spf13">@spf13</a>.</p>
+
+<p>Now if I can get myself to start writing regularly! 😏</p>
+
+<h2 id="hugo-quickstart:7f4b9f7739f002543ad3bdad074156e5">Hugo Quickstart</h2>
+
+<p>The Hugo quickstart ⚡ guide at <a href="http://gohugo.io/overview/quickstart/">http://gohugo.io/overview/quickstart/</a> covers it well.</p>
+
+<p>For Mac OSX <code>brew</code> makes the install a breeze.</p>
+
+<pre><code>brew install gohugo
+</code></pre>
+
+<p>That&rsquo;s it! No dependencies to manage, no <code>rake</code>, no managing versions of <code>ruby</code> or <code>node</code>. Hugo is a static binary! That&rsquo;s as sweet as a wrapped piece of sugar candy! 🍬</p>
+
+<p>For a glimpse this is all it took to get a hugo blog up &amp; running locally:</p>
+
+<pre><code># Bootstrap Hugo Blog
+$ hugo new site /path/to/site
+</code></pre>
+
+<pre><code># Add new Page
+$ hugo new about.md
+</code></pre>
+
+<pre><code># Get all the themes to play with!
+$ git clone --recursive https://github.com/spf13/hugoThemes themes
+</code></pre>
+
+<pre><code># Run Hugo Server
+$ hugo server --theme=hyde --buildDrafts
+</code></pre>
+
+<p>Add <code>--watch</code> flag to to <code>hugo server</code> and you get a fast live-reloading page that reacts to each file save on content. Pretty sweet! 😍</p>
+
+<p>Offcourse you don&rsquo;t need to use <code>hugo server</code>. Its great for local dev. Could be used for prod if you want to host your blog on your own server or VPS. For simpler options go with Github Pages or S3. I&rsquo;m going with Github Pages for the moment for free blog hosting! 💵</p>
+
+<h2 id="downsides-with-hugo:7f4b9f7739f002543ad3bdad074156e5">Downsides with Hugo</h2>
+
+<p>I&rsquo;ve mostly talked about the positives of Hugo here. One downside of Hugo compared to more mature blog platforms is the lack of themes. The curated list of themes at <a href="https://github.com/spf13/hugoThemes">https://github.com/spf13/hugoThemes</a> are a bit lacking in design. Will take a better look at them but at first glance neither of them look well polished.</p>
+
+<p>The good news is that there is a sizable community of Hugo users/fans. So this should not be an impediment for long. Or you can port some existing Jekyll theme of choice to Hugo, which doesn&rsquo;t seem too bad but a significant time investment for sure.</p>
+
+<p>&ndash; <a href="/about/">Badar Ahmed</a></p>
+
+<hr/>
+
+<p>
+<figure >
+    <a href="http://gohugo.io">
+        <img src="/media/hugo.png" />
+    </a>
+    
+    <figcaption>
+        <h4>Hugo: Go based Static Site Generator</h4>
+        
+    </figcaption>
+    
+</figure>
+</p>
+
+  </div>
+  
+</div>
+
+
+
+
+
+
+</body>
+</html>
+
