@@ -1,0 +1,11 @@
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+languageCode = "en-us"
+title = "Tech Musings"
+theme = "hyde-x"
+
+[author]
+  name = "Badar Ahmed"
+
+[params]
+  theme = "theme-base-08 layout-reverse"
+  tagline = "Writings about Code<br/><br/>#architecture #distributedsystems #golang #javascript<br/><br/>"
