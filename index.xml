@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tech Musings</title>
-    <link>http://replace-this-with-your-hugo-site.com/</link>
+    <link>http://badarahmed.github.io/</link>
     <description>Recent content on Tech Musings</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 30 Aug 2015 14:51:04 -0700</lastBuildDate>
-    <atom:link href="http://replace-this-with-your-hugo-site.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://badarahmed.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Restart blogging with Hugo</title>
-      <link>http://replace-this-with-your-hugo-site.com/post/restart-blog/</link>
+      <link>http://badarahmed.github.io/post/restart-blog/</link>
       <pubDate>Sun, 30 Aug 2015 14:51:04 -0700</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/post/restart-blog/</guid>
+      <guid>http://badarahmed.github.io/post/restart-blog/</guid>
       <description>
 
 &lt;p&gt;Starting new blog again! I&amp;rsquo;ve attempted to write a bit before with a &lt;a href=&#34;http://jekyllrb.com/&#34;&gt;Jekyll&lt;/a&gt; &amp;amp; &lt;a href=&#34;https://ghost.org/&#34;&gt;Ghost&lt;/a&gt; setup.&lt;/p&gt;
@@ -63,14 +63,14 @@ $ hugo server --theme=hyde --buildDrafts
 
 &lt;p&gt;The good news is that there is a sizable community of Hugo users/fans. So this should not be an impediment for long. Or you can port some existing Jekyll theme of choice to Hugo, which doesn&amp;rsquo;t seem too bad but a significant time investment for sure.&lt;/p&gt;
 
-&lt;p&gt;&amp;ndash; &lt;a href=&#34;http://replace-this-with-your-hugo-site.com/about/&#34;&gt;Badar Ahmed&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;ndash; &lt;a href=&#34;http://badarahmed.github.io/about/&#34;&gt;Badar Ahmed&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr/&gt;
 
 &lt;p&gt;
 &lt;figure &gt;
     &lt;a href=&#34;http://gohugo.io&#34;&gt;
-        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/media/hugo.png&#34; /&gt;
+        &lt;img src=&#34;http://badarahmed.github.io/media/hugo.png&#34; /&gt;
     &lt;/a&gt;
     
     &lt;figcaption&gt;
@@ -85,10 +85,10 @@ $ hugo server --theme=hyde --buildDrafts
     
     <item>
       <title>About</title>
-      <link>http://replace-this-with-your-hugo-site.com/about/</link>
+      <link>http://badarahmed.github.io/about/</link>
       <pubDate>Sat, 29 Aug 2015 00:18:20 -0700</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/about/</guid>
+      <guid>http://badarahmed.github.io/about/</guid>
       <description>&lt;p&gt;I&amp;rsquo;m &lt;strong&gt;Badar Ahmed&lt;/strong&gt;, a Software Engineer from sunny Los Angeles.&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;ve been programming since early 00&amp;rsquo;s. I opine here on the voodoo of software engineering; the languages, platforms, frameworks &amp;amp; architectures.&lt;/p&gt;
@@ -98,7 +98,7 @@ $ hugo server --theme=hyde --buildDrafts
 &lt;p&gt;
 &lt;figure &gt;
     
-        &lt;img src=&#34;http://replace-this-with-your-hugo-site.com/media/la.jpg&#34; /&gt;
+        &lt;img src=&#34;http://badarahmed.github.io/media/la.jpg&#34; /&gt;
     
     
     &lt;figcaption&gt;
